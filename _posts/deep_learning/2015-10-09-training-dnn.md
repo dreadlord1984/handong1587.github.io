@@ -43,6 +43,10 @@ date: 2015-10-09
 
 [https://arxiv.org/abs/1705.04591](https://arxiv.org/abs/1705.04591)
 
+**Training Better CNNs Requires to Rethink ReLU**
+
+[https://arxiv.org/abs/1709.06247](https://arxiv.org/abs/1709.06247)
+
 ## LReLU
 
 **Rectifier Nonlinearities Improve Neural Network Acoustic Models**
@@ -161,6 +165,26 @@ date: 2015-10-09
 - intro: CMU
 - arxiv: [https://arxiv.org/abs/1707.04199](https://arxiv.org/abs/1707.04199)
 
+## EraseReLU
+
+**EraseReLU: A Simple Way to Ease the Training of Deep Convolution Neural Networks**
+
+[https://arxiv.org/abs/1709.07634](https://arxiv.org/abs/1709.07634)
+
+## Swish
+
+**Swish: a Self-Gated Activation Function**
+
+**Searching for Activation Functions**
+
+- intro: Google Brain
+- arxiv: [https://arxiv.org/abs/1710.05941](https://arxiv.org/abs/1710.05941)
+- reddit: [https://www.reddit.com/r/MachineLearning/comments/77gcrv/d_swish_is_not_performing_very_well/](https://www.reddit.com/r/MachineLearning/comments/77gcrv/d_swish_is_not_performing_very_well/)
+
+**Deep Learning with Data Dependent Implicit Activation Function**
+
+[https://arxiv.org/abs/1802.00168](https://arxiv.org/abs/1802.00168)
+
 ## Series on Initialization of Weights for DNN
 
 **Initialization Of Feedfoward Networks**
@@ -268,6 +292,20 @@ date: 2015-10-09
 - intro: Sergey Ioffe, Google
 - arxiv: [https://arxiv.org/abs/1702.03275](https://arxiv.org/abs/1702.03275)
 
+**Comparison of Batch Normalization and Weight Normalization Algorithms for the Large-scale Image Classification**
+
+[https://arxiv.org/abs/1709.08145](https://arxiv.org/abs/1709.08145)
+
+**In-Place Activated BatchNorm for Memory-Optimized Training of DNNs**
+
+- intro: Mapillary Research
+- arxiv: [https://arxiv.org/abs/1712.02616](https://arxiv.org/abs/1712.02616)
+- github: [https://github.com/mapillary/inplace_abn](https://github.com/mapillary/inplace_abn)
+
+**Batch Kalman Normalization: Towards Training Deep Neural Networks with Micro-Batches**
+
+[https://arxiv.org/abs/1802.03133](https://arxiv.org/abs/1802.03133)
+
 ### Backward pass of BN
 
 **Understanding the backward pass through Batch Normalization Layer**
@@ -299,6 +337,13 @@ date: 2015-10-09
 
 - arxiv: [https://arxiv.org/abs/1702.05870](https://arxiv.org/abs/1702.05870)
 
+## Group Normalization
+
+**Group Normalization**
+
+- intro: Facebook AI Research (FAIR)
+- arxiv: [https://arxiv.org/abs/1803.08494](https://arxiv.org/abs/1803.08494)
+
 # Loss Function
 
 **The Loss Surfaces of Multilayer Networks**
@@ -323,7 +368,9 @@ date: 2015-10-09
 - intro: Peking University & South China University of Technology & CMU & Shenzhen University
 - arxiv: [https://arxiv.org/abs/1612.02295](https://arxiv.org/abs/1612.02295)
 - github(Official. Caffe): [https://github.com/wy1iu/LargeMargin_Softmax_Loss](https://github.com/wy1iu/LargeMargin_Softmax_Loss)
-- github(MXNet): [https://github.com/luoyetx/mx-lsoftmax](https://github.com/luoyetx/mx-lsoftmax)
+- github: [https://github.com/luoyetx/mx-lsoftmax](https://github.com/luoyetx/mx-lsoftmax)
+- github: [https://github.com/tpys/face-recognition-caffe2](https://github.com/tpys/face-recognition-caffe2)
+- github: [https://github.com/jihunchoi/lsoftmax-pytorch](https://github.com/jihunchoi/lsoftmax-pytorch)
 
 **An empirical analysis of the optimization of deep network loss surfaces**
 
@@ -343,6 +390,16 @@ date: 2015-10-09
 - intro: CVPR 2017
 - arxiv: [https://arxiv.org/abs/1708.03769](https://arxiv.org/abs/1708.03769)
 
+**DropMax: Adaptive Stochastic Softmax**
+
+- intro: UNIST & Postech & KAIST
+- arxiv: [https://arxiv.org/abs/1712.07834](https://arxiv.org/abs/1712.07834)
+
+**Rethinking Feature Distribution for Loss Functions in Image Classification**
+
+- intro: CVPR 2018 spotlight
+- arxiv: [https://arxiv.org/abs/1803.02988](https://arxiv.org/abs/1803.02988)
+
 # Learning Rate
 
 **No More Pesky Learning Rates**
@@ -360,6 +417,15 @@ date: 2015-10-09
 **Super-Convergence: Very Fast Training of Residual Networks Using Large Learning Rates**
 
 [https://arxiv.org/abs/1708.07120](https://arxiv.org/abs/1708.07120)
+
+**Improving the way we work with learning rate.**
+
+[https://medium.com/@bushaev/improving-the-way-we-work-with-learning-rate-5e99554f163b](https://medium.com/@bushaev/improving-the-way-we-work-with-learning-rate-5e99554f163b)
+
+**WNGrad: Learn the Learning Rate in Gradient Descent**
+
+- intro: University of Texas at Austin & Facebook AI Research
+- arxiv: [https://arxiv.org/abs/1803.02865](https://arxiv.org/abs/1803.02865)
 
 # Convolution Filters
 
@@ -414,7 +480,16 @@ date: 2015-10-09
 - arxiv: [https://arxiv.org/abs/1707.08105](https://arxiv.org/abs/1707.08105)
 - github: [https://github.com/passalis/cbof](https://github.com/passalis/cbof)
 
-# Batch
+**A new kind of pooling layer for faster and sharper convergence**
+
+- blog: [https://medium.com/@singlasahil14/a-new-kind-of-pooling-layer-for-faster-and-sharper-convergence-1043c756a221](https://medium.com/@singlasahil14/a-new-kind-of-pooling-layer-for-faster-and-sharper-convergence-1043c756a221)
+- github: [https://github.com/singlasahil14/sortpool2d](https://github.com/singlasahil14/sortpool2d)
+
+**Statistically Motivated Second Order Pooling**
+
+[https://arxiv.org/abs/1801.07492](https://arxiv.org/abs/1801.07492)
+
+# Batch Size
 
 **Online Batch Selection for Faster Training of Neural Networks**
 
@@ -435,6 +510,30 @@ date: 2015-10-09
 **Scaling SGD Batch Size to 32K for ImageNet Training**
 
 [https://arxiv.org/abs/1708.03888](https://arxiv.org/abs/1708.03888)
+
+**ImageNet Training in 24 Minutes**
+
+[https://arxiv.org/abs/1709.05011](https://arxiv.org/abs/1709.05011)
+
+**Don't Decay the Learning Rate, Increase the Batch Size**
+
+- intro: Google Brain
+- arxiv: [https://arxiv.org/abs/1711.00489](https://arxiv.org/abs/1711.00489)
+
+**Extremely Large Minibatch SGD: Training ResNet-50 on ImageNet in 15 Minutes**
+
+- intro: NIPS 2017 Workshop: Deep Learning at Supercomputer Scale
+- arxiv: [https://arxiv.org/abs/1711.04325](https://arxiv.org/abs/1711.04325)
+
+**AdaBatch: Adaptive Batch Sizes for Training Deep Neural Networks**
+
+- intro: UC Berkeley & NVIDIA
+- arxiv: [https://arxiv.org/abs/1712.02029](https://arxiv.org/abs/1712.02029)
+
+**Hessian-based Analysis of Large Batch Training and Robustness to Adversaries**
+
+- intro: UC Berkeley & University of Texas
+- arxiv: [https://arxiv.org/abs/1802.08241](https://arxiv.org/abs/1802.08241)
 
 # Optimization Methods
 
@@ -519,6 +618,31 @@ date: 2015-10-09
 - arxiv: [https://arxiv.org/abs/1703.03633](https://arxiv.org/abs/1703.03633)
 - github(TensorFlow): [https://github.com/vfleaking/rnnprop](https://github.com/vfleaking/rnnprop)
 
+**Optimization Algorithms**
+
+- blog: [https://3dbabove.com/2017/11/14/optimizationalgorithms/](https://3dbabove.com/2017/11/14/optimizationalgorithms/)
+- github: [https://github.com//ManuelGonzalezRivero/3dbabove](https://github.com//ManuelGonzalezRivero/3dbabove)
+- reddit: [https://www.reddit.com/r/MachineLearning/comments/7ehxky/d_optimization_algorithms_math_and_code/](https://www.reddit.com/r/MachineLearning/comments/7ehxky/d_optimization_algorithms_math_and_code/)
+
+**Gradient Normalization & Depth Based Decay For Deep Learning**
+
+- intro: Columbia University
+- arxiv: [https://arxiv.org/abs/1712.03607](https://arxiv.org/abs/1712.03607)
+
+**Neumann Optimizer: A Practical Optimization Algorithm for Deep Neural Networks**
+
+- intro: Google Research
+- arxiv: [https://arxiv.org/abs/1712.03298](https://arxiv.org/abs/1712.03298)
+
+**Optimization for Deep Learning Highlights in 2017**
+
+[http://ruder.io/deep-learning-optimization-2017/index.html](http://ruder.io/deep-learning-optimization-2017/index.html)
+
+**Gradients explode - Deep Networks are shallow - ResNet explained**
+
+- intro: CMU & UC Berkeley
+- arxiv: [https://arxiv.org/abs/1712.05577](https://arxiv.org/abs/1712.05577)
+
 # Tensor Methods
 
 **Tensorizing Neural Networks**
@@ -576,6 +700,19 @@ date: 2015-10-09
 
 - blog: [https://medium.com/@cristina_scheau/regularization-in-deep-learning-f649a45d6e0#.py327hkuv](https://medium.com/@cristina_scheau/regularization-in-deep-learning-f649a45d6e0#.py327hkuv)
 - github: [https://github.com/cscheau/Examples/blob/master/iris_l1_l2.py](https://github.com/cscheau/Examples/blob/master/iris_l1_l2.py)
+
+**LDMNet: Low Dimensional Manifold Regularized Neural Networks**
+
+[https://arxiv.org/abs/1711.06246](https://arxiv.org/abs/1711.06246)
+
+**Learning Sparse Neural Networks through L0 Regularization**
+
+- intro: University of Amsterdam & OpenAI
+- arxiv: [https://arxiv.org/abs/1712.01312](https://arxiv.org/abs/1712.01312)
+
+**Regularization and Optimization strategies in Deep Convolutional Neural Network**
+
+[https://arxiv.org/abs/1712.04711](https://arxiv.org/abs/1712.04711)
 
 ## Dropout
 
@@ -656,6 +793,29 @@ date: 2015-10-09
 - intro: Nihon University
 - arxiv: [https://arxiv.org/abs/1706.06859](https://arxiv.org/abs/1706.06859)
 
+**An Analysis of Dropout for Matrix Factorization**
+
+[https://arxiv.org/abs/1710.03487](https://arxiv.org/abs/1710.03487)
+
+**Analysis of Dropout in Online Learning**
+
+[https://arxiv.org/abs/1711.03343](https://arxiv.org/abs/1711.03343)
+
+**Fixing Weight Decay Regularization in Adam**
+
+- intro: University of Freiburg
+- arxiv: [https://arxiv.org/abs/1711.05101](https://arxiv.org/abs/1711.05101)
+- github: [https://github.com/loshchil/AdamW-and-SGDW](https://github.com/loshchil/AdamW-and-SGDW)
+- github: [https://github.com/fastai/fastai/pull/46/files](https://github.com/fastai/fastai/pull/46/files)
+
+**Regularization of Deep Neural Networks with Spectral Dropout**
+
+[https://arxiv.org/abs/1711.08591](https://arxiv.org/abs/1711.08591)
+
+**Data Dropout in Arbitrary Basis for Deep Network Regularization**
+
+[https://arxiv.org/abs/1712.00891](https://arxiv.org/abs/1712.00891)
+
 ## DropConnect
 
 **Regularization of Neural Networks using DropConnect**
@@ -703,6 +863,10 @@ date: 2015-10-09
 - intro: University of Notre Dame & University of Science and Technology of China
 - arxiv: [https://arxiv.org/abs/1612.01490](https://arxiv.org/abs/1612.01490)
 
+**ShakeDrop regularization**
+
+[https://arxiv.org/abs/1802.02375](https://arxiv.org/abs/1802.02375)
+
 # Gradient Descent
 
 **RMSProp: Divide the gradient by a running average of its recent magnitude**
@@ -714,6 +878,7 @@ date: 2015-10-09
 
 **Adam: A Method for Stochastic Optimization**
 
+- intro: ICLR 2015
 - arxiv: [http://arxiv.org/abs/1412.6980](http://arxiv.org/abs/1412.6980)
 
 **Fitting a model via closed-form equations vs. Gradient Descent vs Stochastic Gradient Descent vs Mini-Batch Learning. What is the difference?(Normal Equations vs. GD vs. SGD vs. MB-GD)**
@@ -757,6 +922,22 @@ date: 2015-10-09
 **Gentle Introduction to the Adam Optimization Algorithm for Deep Learning**
 
 - blog: [http://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/](http://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/)
+
+**Understanding Generalization and Stochastic Gradient Descent**
+
+**A Bayesian Perspective on Generalization and Stochastic Gradient Descent**
+
+- intro: Google Brain
+- arxiv: [https://arxiv.org/abs/1710.06451](https://arxiv.org/abs/1710.06451)
+
+**Accelerated Gradient Descent Escapes Saddle Points Faster than Gradient Descent**
+
+- intro: UC Berkeley & Microsoft Research, India
+- arxiv: [https://arxiv.org/abs/1711.10456](https://arxiv.org/abs/1711.10456)
+
+**Improving Generalization Performance by Switching from Adam to SGD**
+
+[https://arxiv.org/abs/1712.07628](https://arxiv.org/abs/1712.07628)
 
 ## AdaGrad
 
@@ -817,6 +998,12 @@ date: 2015-10-09
 - intro: CoRR 2017. University of Toronto
 - arxiv: [https://arxiv.org/abs/1707.04585](https://arxiv.org/abs/1707.04585)
 - github: [https://github.com/renmengye/revnet-public](https://github.com/renmengye/revnet-public)
+
+**meProp: Sparsified Back Propagation for Accelerated Deep Learning with Reduced Overfitting**
+
+- intro: ICML 2017
+- arxiv: [https://arxiv.org/abs/1706.06197](https://arxiv.org/abs/1706.06197)
+- github: [https://github.com//jklj077/meProp](https://github.com//jklj077/meProp)
 
 # Accelerate Training
 
@@ -907,12 +1094,103 @@ date: 2015-10-09
 - arxiv: [https://arxiv.org/abs/1708.06020](https://arxiv.org/abs/1708.06020)
 - github: [https://github.com/webstorms/AugmentedDatasets](https://github.com/webstorms/AugmentedDatasets)
 
+**Augmentor: An Image Augmentation Library for Machine Learning**
+
+- arxiv: [https://arxiv.org/abs/1708.04680](https://arxiv.org/abs/1708.04680)
+- github: [https://github.com/mdbloice/Augmentor](https://github.com/mdbloice/Augmentor)
+
+**Learning to Compose Domain-Specific Transformations for Data Augmentation**
+
+[https://arxiv.org/abs/1709.01643](https://arxiv.org/abs/1709.01643)
+
+**Data Augmentation in Classification using GAN**
+
+[https://arxiv.org/abs/1711.00648](https://arxiv.org/abs/1711.00648)
+
+**Data Augmentation Generative Adversarial Networks**
+
+[https://arxiv.org/abs/1711.04340](https://arxiv.org/abs/1711.04340)
+
+**Random Erasing Data Augmentation**
+
+- arxiv: [https://arxiv.org/abs/1708.04896](https://arxiv.org/abs/1708.04896)
+- github: [https://github.com/zhunzhong07/Random-Erasing](https://github.com/zhunzhong07/Random-Erasing)
+
+**Context Augmentation for Convolutional Neural Networks**
+
+[https://arxiv.org/abs/1712.01653](https://arxiv.org/abs/1712.01653)
+
+**The Effectiveness of Data Augmentation in Image Classification using Deep Learning**
+
+[https://arxiv.org/abs/1712.04621](https://arxiv.org/abs/1712.04621)
+
+**MentorNet: Regularizing Very Deep Neural Networks on Corrupted Labels**
+
+- intro: Google Inc & Stanford University
+- arxiv: [https://arxiv.org/abs/1712.05055](https://arxiv.org/abs/1712.05055)
+
+**mixup: Beyond Empirical Risk Minimization**
+
+- intro: MIT & FAIR
+- arxiv: [https://arxiv.org/abs/1710.09412](https://arxiv.org/abs/1710.09412)
+- github: [https://github.com//leehomyc/mixup_pytorch](https://github.com//leehomyc/mixup_pytorch)
+- github: [https://github.com//unsky/mixup](https://github.com//unsky/mixup)
+
+**mixup: Data-Dependent Data Augmentation**
+
+[http://www.inference.vc/mixup-data-dependent-data-augmentation/](http://www.inference.vc/mixup-data-dependent-data-augmentation/)
+
+**Data Augmentation by Pairing Samples for Images Classification**
+
+- intro: IBM Research - Tokyo
+- arxiv: [https://arxiv.org/abs/1801.02929](https://arxiv.org/abs/1801.02929)
+
+**Feature Space Transfer for Data Augmentation**
+
+- keywords: eATure TransfEr Network (FATTEN)
+- arxiv: [https://arxiv.org/abs/1801.04356](https://arxiv.org/abs/1801.04356)
+
+**Visual Data Augmentation through Learning**
+
+[https://arxiv.org/abs/1801.06665](https://arxiv.org/abs/1801.06665)
+
+**Data Augmentation Generative Adversarial Networks**
+
+- arxiv: [https://arxiv.org/abs/1711.04340](https://arxiv.org/abs/1711.04340)
+- github: [https://github.com/AntreasAntoniou/DAGAN](https://github.com/AntreasAntoniou/DAGAN)
+
 ## Imbalanced Datasets
 
 **Investigation on handling Structured & Imbalanced Datasets with Deep Learning**
 
 - intro: smote resampling, cost sensitive learning
 - blog: [https://www.analyticsvidhya.com/blog/2016/10/investigation-on-handling-structured-imbalanced-datasets-with-deep-learning/](https://www.analyticsvidhya.com/blog/2016/10/investigation-on-handling-structured-imbalanced-datasets-with-deep-learning/)
+
+**A systematic study of the class imbalance problem in convolutional neural networks**
+
+- intro: Duke University & Royal Institute of Technology (KTH)
+- arxiv: [https://arxiv.org/abs/1710.05381](https://arxiv.org/abs/1710.05381)
+
+**Class Rectification Hard Mining for Imbalanced Deep Learning**
+
+[https://arxiv.org/abs/1712.03162](https://arxiv.org/abs/1712.03162)
+
+**Bridging the Gap: Simultaneous Fine Tuning for Data Re-Balancing**
+
+- arxiv: [https://arxiv.org/abs/1801.02548](https://arxiv.org/abs/1801.02548)
+- github: [https://github.com/JohnMcKay/dataImbalance](https://github.com/JohnMcKay/dataImbalance)
+
+## Noisy / Unlabelled Data
+
+**Data Distillation: Towards Omni-Supervised Learning**
+
+- intro: Facebook AI Research (FAIR)
+- arxiv: [https://arxiv.org/abs/1712.04440](https://arxiv.org/abs/1712.04440)
+
+**Learning From Noisy Singly-labeled Data**
+
+- intro: University of Illinois Urbana Champaign & CMU & Caltech & Amazon AI
+- arxiv: [https://arxiv.org/abs/1712.04577](https://arxiv.org/abs/1712.04577)
 
 # Low Numerical Precision
 
@@ -949,12 +1227,191 @@ date: 2015-10-09
 
 - arxiv: [http://arxiv.org/abs/1609.07061](http://arxiv.org/abs/1609.07061)
 
+# Distributed Training
+
+**Large Scale Distributed Systems for Training Neural Networks**
+
+- intro: By Jeff Dean & Oriol Vinyals, Google. NIPS 2015.
+- slides: [https://media.nips.cc/Conferences/2015/tutorialslides/Jeff-Oriol-NIPS-Tutorial-2015.pdf](https://media.nips.cc/Conferences/2015/tutorialslides/Jeff-Oriol-NIPS-Tutorial-2015.pdf)
+- video: [http://research.microsoft.com/apps/video/default.aspx?id=259564&l=i](http://research.microsoft.com/apps/video/default.aspx?id=259564&l=i)
+- mirror: [http://pan.baidu.com/s/1mgXV0hU](http://pan.baidu.com/s/1mgXV0hU)
+
+**Large Scale Distributed Deep Networks**
+
+- intro: distributed CPU training, data parallelism, model parallelism
+- paper: [http://www.cs.toronto.edu/~ranzato/publications/DistBeliefNIPS2012_withAppendix.pdf](http://www.cs.toronto.edu/~ranzato/publications/DistBeliefNIPS2012_withAppendix.pdf)
+- slides: [http://admis.fudan.edu.cn/~yfhuang/files/LSDDN_slide.pdf](http://admis.fudan.edu.cn/~yfhuang/files/LSDDN_slide.pdf)
+
+**Implementation of a Practical Distributed Calculation System with Browsers and JavaScript, and Application to Distributed Deep Learning**
+
+- project page: [http://mil-tokyo.github.io/](http://mil-tokyo.github.io/)
+- arxiv: [https://arxiv.org/abs/1503.05743](https://arxiv.org/abs/1503.05743)
+
+**SparkNet: Training Deep Networks in Spark**
+
+- arxiv: [http://arxiv.org/abs/1511.06051](http://arxiv.org/abs/1511.06051)
+- github: [https://github.com/amplab/SparkNet](https://github.com/amplab/SparkNet)
+- blog: [http://www.kdnuggets.com/2015/12/spark-deep-learning-training-with-sparknet.html](http://www.kdnuggets.com/2015/12/spark-deep-learning-training-with-sparknet.html)
+
+**A Scalable Implementation of Deep Learning on Spark**
+
+- intro: Alexander Ulanov
+- slides: [http://www.slideshare.net/AlexanderUlanov1/a-scalable-implementation-of-deep-learning-on-spark-alexander-ulanov](http://www.slideshare.net/AlexanderUlanov1/a-scalable-implementation-of-deep-learning-on-spark-alexander-ulanov)
+- mirror: [http://pan.baidu.com/s/1jHiNW5C](http://pan.baidu.com/s/1jHiNW5C)
+
+**TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems**
+
+- arxiv: [http://arxiv.org/abs/1603.04467](http://arxiv.org/abs/1603.04467)
+- gitxiv: [http://gitxiv.com/posts/57kjddp3AWt4y5K4h/tensorflow-large-scale-machine-learning-on-heterogeneous](http://gitxiv.com/posts/57kjddp3AWt4y5K4h/tensorflow-large-scale-machine-learning-on-heterogeneous)
+
+**Distributed Supervised Learning using Neural Networks**
+
+- intro: Ph.D. thesis
+- arxiv: [http://arxiv.org/abs/1607.06364](http://arxiv.org/abs/1607.06364)
+
+**Distributed Training of Deep Neuronal Networks: Theoretical and Practical Limits of Parallel Scalability**
+
+- arxiv: [http://arxiv.org/abs/1609.06870](http://arxiv.org/abs/1609.06870)
+
+**How to scale distributed deep learning?**
+
+- intro: Extended version of paper accepted at ML Sys 2016 (at NIPS 2016)
+- arxiv: [https://arxiv.org/abs/1611.04581](https://arxiv.org/abs/1611.04581)
+
+**Deep Gradient Compression: Reducing the Communication Bandwidth for Distributed Training**
+
+- intro: Tsinghua University & Stanford University
+- comments: we find 99.9% of the gradient exchange in distributed SGD is redundant; we reduce the communication bandwidth by two orders of magnitude without losing accuracy
+- keywords: momentum correction, local gradient clipping, momentum factor masking, and warm-up training
+- arxiv: [https://arxiv.org/abs/1712.01887](https://arxiv.org/abs/1712.01887)
+
+**Distributed learning of CNNs on heterogeneous CPU/GPU architectures**
+
+[https://arxiv.org/abs/1712.02546](https://arxiv.org/abs/1712.02546)
+
+**Integrated Model and Data Parallelism in Training Neural Networks**
+
+- intro: UC Berkeley & Lawrence Berkeley National Laboratory
+- arxiv: [https://arxiv.org/abs/1712.04432](https://arxiv.org/abs/1712.04432)
+
+## Projects
+
+**Theano-MPI: a Theano-based Distributed Training Framework**
+
+- arxiv: [https://arxiv.org/abs/1605.08325](https://arxiv.org/abs/1605.08325)
+- github: [https://github.com/uoguelph-mlrg/Theano-MPI](https://github.com/uoguelph-mlrg/Theano-MPI)
+
+**CaffeOnSpark: Open Sourced for Distributed Deep Learning on Big Data Clusters**
+
+- intro: Yahoo Big ML Team
+- blog: [http://yahoohadoop.tumblr.com/post/139916563586/caffeonspark-open-sourced-for-distributed-deep](http://yahoohadoop.tumblr.com/post/139916563586/caffeonspark-open-sourced-for-distributed-deep)
+- github: [https://github.com/yahoo/CaffeOnSpark](https://github.com/yahoo/CaffeOnSpark)
+- youtube: [https://www.youtube.com/watch?v=bqj7nML-aHk](https://www.youtube.com/watch?v=bqj7nML-aHk)
+
+**Tunnel: Data Driven Framework for Distributed Computing in Torch 7**
+
+- github: [https://github.com/zhangxiangxiao/tunnel](https://github.com/zhangxiangxiao/tunnel)
+
+**Distributed deep learning with Keras and Apache Spark**
+
+- project page: [http://joerihermans.com/work/distributed-keras/](http://joerihermans.com/work/distributed-keras/)
+- github: [https://github.com/JoeriHermans/dist-keras](https://github.com/JoeriHermans/dist-keras)
+
+**BigDL: Distributed Deep learning Library for Apache Spark**
+
+- github: [https://github.com/intel-analytics/BigDL](https://github.com/intel-analytics/BigDL)
+
+## Videos
+
+**A Scalable Implementation of Deep Learning on Spark**
+
+- youtube: [https://www.youtube.com/watch?v=pNYBBhuK8yU](https://www.youtube.com/watch?v=pNYBBhuK8yU)
+- mirror: [http://pan.baidu.com/s/1mhzF1uK](http://pan.baidu.com/s/1mhzF1uK)
+
+**Distributed TensorFlow on Spark: Scaling Google's Deep Learning Library (Spark Summit)**
+
+- youtube: [https://www.youtube.com/watch?v=-QtcP3yRqyM](https://www.youtube.com/watch?v=-QtcP3yRqyM)
+- mirror: [http://pan.baidu.com/s/1mgOR1GG](http://pan.baidu.com/s/1mgOR1GG)
+
+**Deep Recurrent Neural Networks for Sequence Learning in Spark (Spark Summit)**
+
+- youtube: [https://www.youtube.com/watch?v=mUuqLcl8Jog](https://www.youtube.com/watch?v=mUuqLcl8Jog)
+- mirror: [http://pan.baidu.com/s/1sklHTPr](http://pan.baidu.com/s/1sklHTPr)
+
+**Distributed deep learning on Spark**
+
+- author: Alexander Ulanov July 12, 2016
+- intro: Alexander Ulanov offers an overview of tools and frameworks that have been proposed for performing deep learning on Spark.
+- video: [https://www.oreilly.com/learning/distributed-deep-learning-on-spark](https://www.oreilly.com/learning/distributed-deep-learning-on-spark)
+
+## Blogs
+
+**Distributed Deep Learning Reads**
+
+[https://github.com//tmulc18/DistributedDeepLearningReads](https://github.com//tmulc18/DistributedDeepLearningReads)
+
+**Hadoop, Spark, Deep Learning Mesh on Single GPU Cluster**
+
+[http://www.nextplatform.com/2016/02/24/hadoop-spark-deep-learning-mesh-on-single-gpu-cluster/](http://www.nextplatform.com/2016/02/24/hadoop-spark-deep-learning-mesh-on-single-gpu-cluster/)
+
+**The Unreasonable Effectiveness of Deep Learning on Spark**
+
+[https://databricks.com/blog/2016/04/01/unreasonable-effectiveness-of-deep-learning-on-spark.html](https://databricks.com/blog/2016/04/01/unreasonable-effectiveness-of-deep-learning-on-spark.html)
+
+**Distributed Deep Learning with Caffe Using a MapR Cluster**
+
+![](https://www.mapr.com/sites/default/files/spark-driver.jpg)
+
+[https://www.mapr.com/blog/distributed-deep-learning-caffe-using-mapr-cluster](https://www.mapr.com/blog/distributed-deep-learning-caffe-using-mapr-cluster)
+
+**Deep Learning with Apache Spark and TensorFlow**
+
+[https://databricks.com/blog/2016/01/25/deep-learning-with-apache-spark-and-tensorflow.html](https://databricks.com/blog/2016/01/25/deep-learning-with-apache-spark-and-tensorflow.html)
+
+**Deeplearning4j on Spark**
+
+[http://deeplearning4j.org/spark](http://deeplearning4j.org/spark)
+
+**Distributed Deep Learning, Part 1: An Introduction to Distributed Training of Neural Networks**
+
+- blog: [http://engineering.skymind.io/distributed-deep-learning-part-1-an-introduction-to-distributed-training-of-neural-networks](http://engineering.skymind.io/distributed-deep-learning-part-1-an-introduction-to-distributed-training-of-neural-networks)
+
+**GPU Acceleration in Databricks: Speeding Up Deep Learning on Apache Spark**
+
+[https://databricks.com/blog/2016/10/27/gpu-acceleration-in-databricks.html](https://databricks.com/blog/2016/10/27/gpu-acceleration-in-databricks.html)
+
+**Distributed Deep Learning with Apache Spark and Keras**
+
+[https://db-blog.web.cern.ch/blog/joeri-hermans/2017-01-distributed-deep-learning-apache-spark-and-keras](https://db-blog.web.cern.ch/blog/joeri-hermans/2017-01-distributed-deep-learning-apache-spark-and-keras)
+
 # Adversarial Training
 
 **Learning from Simulated and Unsupervised Images through Adversarial Training**
 
 - intro: CVPR 2017 oral, best paper award. Apple Inc.
 - arxiv: [https://arxiv.org/abs/1612.07828](https://arxiv.org/abs/1612.07828)
+
+**The Robust Manifold Defense: Adversarial Training using Generative Models**
+
+[https://arxiv.org/abs/1712.09196](https://arxiv.org/abs/1712.09196)
+
+**DeepDefense: Training Deep Neural Networks with Improved Robustness**
+
+[https://arxiv.org/abs/1803.00404](https://arxiv.org/abs/1803.00404)
+
+# Low-Precision Training
+
+**High-Accuracy Low-Precision Training**
+
+- intro: Cornell University & Stanford University
+- arxiv: [https://arxiv.org/abs/1803.03383](https://arxiv.org/abs/1803.03383)
+
+# Incremental Training
+
+**ClickBAIT: Click-based Accelerated Incremental Training of Convolutional Neural Networks**
+
+- arxiv: [https://arxiv.org/abs/1709.05021](https://arxiv.org/abs/1709.05021)
+- dataset: [http://clickbait.crossmobile.info/](http://clickbait.crossmobile.info/)
 
 # Papers
 
@@ -1014,6 +1471,12 @@ date: 2015-10-09
 
 - intro: University of Maryland & Arizona State University
 - arxiv: [https://arxiv.org/abs/1708.00631](https://arxiv.org/abs/1708.00631)
+
+**Solving internal covariate shift in deep learning with linked neurons**
+
+- intro: Universitat de Barcelona
+- arxiv: [https://arxiv.org/abs/1712.02609](https://arxiv.org/abs/1712.02609)
+- github: [https://github.com/blauigris/linked_neurons](https://github.com/blauigris/linked_neurons)
 
 # Tools
 

@@ -287,6 +287,32 @@ after the embedding and recurrent layers of the RNN."
 - intro: Proceedings of the 10th International Conference on Natural Language Generation (INLG'17)
 - arxiv: [https://arxiv.org/abs/1708.02043](https://arxiv.org/abs/1708.02043)
 
+**Stack-Captioning: Coarse-to-Fine Learning for Image Captioning**
+
+[https://arxiv.org/abs/1709.03376](https://arxiv.org/abs/1709.03376)
+
+**Self-Guiding Multimodal LSTM - when we do not have a perfect training dataset for image captioning**
+
+[https://arxiv.org/abs/1709.05038](https://arxiv.org/abs/1709.05038)
+
+**Contrastive Learning for Image Captioning**
+
+- intro: NIPS 2017
+- arxiv: [https://arxiv.org/abs/1710.02534](https://arxiv.org/abs/1710.02534)
+
+**Phrase-based Image Captioning with Hierarchical LSTM Model**
+
+- intro: ACCV2016 extension, phrase-based image captioning
+- arxiv: [https://arxiv.org/abs/1711.05557](https://arxiv.org/abs/1711.05557)
+
+**Convolutional Image Captioning**
+
+[https://arxiv.org/abs/1711.09151](https://arxiv.org/abs/1711.09151)
+
+**Show-and-Fool: Crafting Adversarial Examples for Neural Image Captioning**
+
+[https://arxiv.org/abs/1712.02051](https://arxiv.org/abs/1712.02051)
+
 # Object Descriptions
 
 **Generation and Comprehension of Unambiguous Object Descriptions**
@@ -437,6 +463,30 @@ after the embedding and recurrent layers of the RNN."
 **From Deterministic to Generative: Multi-Modal Stochastic RNNs for Video Captioning**
 
 [https://arxiv.org/abs/1708.02478](https://arxiv.org/abs/1708.02478)
+
+**Grounded Objects and Interactions for Video Captioning**
+
+[https://arxiv.org/abs/1711.06354](https://arxiv.org/abs/1711.06354)
+
+**Integrating both Visual and Audio Cues for Enhanced Video Caption**
+
+[https://arxiv.org/abs/1711.08097](https://arxiv.org/abs/1711.08097)
+
+**Video Captioning via Hierarchical Reinforcement Learning**
+
+[https://arxiv.org/abs/1711.11135](https://arxiv.org/abs/1711.11135)
+
+**Consensus-based Sequence Training for Video Captioning**
+
+[https://arxiv.org/abs/1712.09532](https://arxiv.org/abs/1712.09532)
+
+**Less Is More: Picking Informative Frames for Video Captioning**
+
+[https://arxiv.org/abs/1803.01457](https://arxiv.org/abs/1803.01457)
+
+**End-to-End Video Captioning with Multitask Reinforcement Learning**
+
+[https://arxiv.org/abs/1803.07950](https://arxiv.org/abs/1803.07950)
 
 # Projects
 

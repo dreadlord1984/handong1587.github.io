@@ -149,6 +149,10 @@ joint classification, detection and semantic segmentation via a unified architec
 
 [https://arxiv.org/abs/1708.03309](https://arxiv.org/abs/1708.03309)
 
+**MODNet: Moving Object Detection Network with Motion and Appearance for Autonomous Driving**
+
+[https://arxiv.org/abs/1709.04821](https://arxiv.org/abs/1709.04821)
+
 # Projects
 
 **Caffe-Autopilot: Car autopilot software that uses C++, BVLC Caffe, OpenCV, and SFML**
@@ -201,6 +205,20 @@ without running into obstacles using a type of reinforcement learning called Q-L
 **DeepTesla: End-to-End Learning from Human and Autopilot Driving**
 
 [http://selfdrivingcars.mit.edu/deeptesla/](http://selfdrivingcars.mit.edu/deeptesla/)
+
+**DeepPicar: A Low-cost Deep Neural Network-based Autonomous Car**
+
+- arxiv: [https://arxiv.org/abs/1712.08644](https://arxiv.org/abs/1712.08644)
+- github: [https://github.com//heechul/picar](https://github.com//heechul/picar)
+
+**Autonomous Driving in Reality with Reinforcement Learning and Image Translation**
+
+- intro: Shanghai Jiao Tong University
+- arxiv: [https://arxiv.org/abs/1801.05299](https://arxiv.org/abs/1801.05299)
+
+**End-to-end Multi-Modal Multi-Task Vehicle Control for Self-Driving Cars with Visual Perception**
+
+[https://arxiv.org/abs/1801.06734](https://arxiv.org/abs/1801.06734)
 
 # Blogs
 

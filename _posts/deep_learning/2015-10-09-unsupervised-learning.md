@@ -9,6 +9,10 @@ Restricted Boltzmann Machine (RBM)
 
 Sparse Coding
 
+**Fast Convolutional Sparse Coding in the Dual Domain**
+
+[https://arxiv.org/abs/1709.09479](https://arxiv.org/abs/1709.09479)
+
 Auto-encoder
 
 # Papers
@@ -107,6 +111,11 @@ Auto-encoder
 - arxiv: [https://arxiv.org/abs/1508.04306](https://arxiv.org/abs/1508.04306)
 - github(Keras): [https://github.com/jcsilva/deep-clustering](https://github.com/jcsilva/deep-clustering)
 
+**Neural network-based clustering using pairwise constraints**
+
+- intro: ICLR 2016
+- arxiv: [https://arxiv.org/abs/1511.06321](https://arxiv.org/abs/1511.06321)
+
 **Unsupervised Deep Embedding for Clustering Analysis**
 
 - intro: ICML 2016. Deep Embedded Clustering (DEC)
@@ -140,6 +149,27 @@ Auto-encoder
 
 - intro: University of Central Florida & Purdue University
 - arxiv: [https://arxiv.org/abs/1706.05048](https://arxiv.org/abs/1706.05048)
+
+**Deep Subspace Clustering Networks**
+
+- intro: NIPS 2017
+- arxiv: [https://arxiv.org/abs/1709.02508](https://arxiv.org/abs/1709.02508)
+
+**SpectralNet: Spectral Clustering using Deep Neural Networks**
+
+- arxiv: [https://arxiv.org/abs/1801.01587](https://arxiv.org/abs/1801.01587)
+- github: [https://github.com//kstant0725/SpectralNet](https://github.com//kstant0725/SpectralNet)
+
+**Clustering with Deep Learning: Taxonomy and New Methods**
+
+- intro: Technical University of Munich
+- arxiv: [https://arxiv.org/abs/1801.07648](https://arxiv.org/abs/1801.07648)
+- github: [https://github.com/elieJalbout/Clustering-with-Deep-learning](https://github.com/elieJalbout/Clustering-with-Deep-learning)
+
+**Deep Continuous Clustering**
+
+- arxiv: [https://arxiv.org/abs/1803.01449](https://arxiv.org/abs/1803.01449)
+- github: [https://github.com/shahsohil/DCC](https://github.com/shahsohil/DCC)
 
 # Auto-encoder
 
@@ -258,6 +288,12 @@ testing it on the MNIST handwritten digits data.
 **A Deep Convolutional Auto-Encoder with Pooling - Unpooling Layers in Caffe**
 
 - arxiv: [https://arxiv.org/abs/1701.04949](https://arxiv.org/abs/1701.04949)
+
+**Deep Matching Autoencoders**
+
+- intro: University of Edinburgh & RIKEN AIP
+- keywords: Deep Matching Autoencoders (DMAE)
+- arxiv: [https://arxiv.org/abs/1711.06047](https://arxiv.org/abs/1711.06047)
 
 # RBM (Restricted Boltzmann Machine)
 
